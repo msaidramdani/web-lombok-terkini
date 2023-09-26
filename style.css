@@ -1,0 +1,304 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Outfit", sans-serif;
+}
+/* Body Riset */
+.container {
+  padding: 7px;
+  margin: auto;
+  background-color: whitesmoke;
+  width: 70%;
+}
+/* Navigasi Bar */
+header {
+  background-image: url(img/gunung.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 500px;
+}
+nav {
+  display: flex;
+  background-color: rgba(0, 0, 255, 0);
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+h2 {
+  cursor: default;
+  padding-left: 2rem;
+  color: rgb(64, 63, 63);
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding-right: 2rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(64, 63, 63);
+  padding: 3px;
+  border: 1.5px solid rgba(255, 255, 255, 0);
+}
+/* Hover Nav */
+nav ul li a:hover {
+  border: 1.5px solid rgb(95, 94, 94);
+}
+
+h1 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  color: rgba(64, 63, 63, 0);
+  -webkit-text-stroke: 1px rgb(217, 214, 214);
+  letter-spacing: 4px;
+  padding-top: 170px;
+  cursor: default;
+  user-select: none;
+}
+
+/* Main and Artikel */
+.Judul-artikel {
+  text-align: center;
+  margin: 6rem 0rem 6rem 0rem;
+  color: rgb(64, 63, 63);
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  gap: 2rem;
+}
+.card {
+  background-color: white;
+  width: 250px;
+  height: 440px;
+  overflow: hidden;
+}
+.card img {
+  width: 250px;
+}
+h4 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: rgb(64, 63, 63);
+}
+.card-content {
+  text-align: center;
+}
+.card-content p {
+  text-align: center;
+  color: rgb(64, 63, 63);
+  font-weight: 300;
+  font-size: 16px;
+}
+.card-content a {
+  color: rgb(64, 63, 63);
+  background-color: aquamarine;
+  text-decoration: none;
+  padding: 4px 7px 4px 7px;
+  border-radius: 3px;
+  position: relative;
+  top: 3rem;
+}
+.card-content a:hover{
+  color: aliceblue;
+  background-color: rgb(122, 120, 120);
+  animation: 0.3s;
+
+}
+
+/* About */
+aside {
+  display: flex;
+  margin-top: 12rem;
+  
+}
+aside img {
+  height: 300px;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 0rem 4rem 0rem 4rem;
+  color: rgb(64, 63, 63);
+}
+.about-judul {
+  padding-bottom: 2rem;
+}
+.about-content p {
+  text-align: justify;
+  overflow: hidden;
+}
+
+/* Artikel */
+article {
+  display: flex;
+  margin-top: 10rem;
+  flex-direction: column;
+  background-color: rgb(186, 241, 223);
+  align-items: center;
+  justify-content: center;
+  color: rgb(64, 63, 63);
+  gap: 10px;
+  width: 100%;
+  height: 250px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submit {
+  display: block;
+  justify-content: center;
+  cursor: pointer;
+  align-content: center;
+  padding: 5px 19px 5px 19px;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(64, 63, 63);
+  border: 1.5px solid rgb(98, 96, 96);
+  transition: 0.3s;
+}
+.submit:hover {
+  border: 1.5px solid rgb(255, 255, 255);
+  color: aliceblue;
+}
+.email {
+  margin-top: 2rem;
+  width: 21rem;
+  height: 2.5rem;
+  padding: 0rem 1rem 0rem 1rem;
+  outline: none;
+}
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  height: 120px;
+}
+.sosmed {
+  display: flex;
+  padding-left: 5rem;
+  gap: 2rem;
+}
+/* Hover Icon */
+.sosmed #ig:hover {
+  color: red;
+}
+.sosmed #tw:hover {
+  color: blue;
+}
+.sosmed #fb:hover {
+  color: blue;
+}
+.sosmed #yt:hover {
+  color: red;
+}
+.sosmed a {
+  color: rgb(64, 63, 63);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.list ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+.list ul li a {
+  text-decoration: none;
+  color: rgb(64, 63, 63);
+  padding-right: 2rem;
+  border: 10px;
+}
+.list ul li a {
+  border: 1px;
+}
+
+/* List Menu */
+.list-menu {
+  font-size: 25px;
+  display: none;
+  color: rgb(64, 63, 63);
+}
+
+@media only screen and (max-width: 768px) {
+  .list-menu {
+    display: flex;
+    padding-right: 1rem;
+    cursor: pointer;
+  }
+  nav ul li a{
+    display: none;
+  }
+  h1 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(64, 63, 63, 0);
+  -webkit-text-stroke: 0.80px rgb(217, 214, 214);
+  letter-spacing: 4px;
+  padding-top: 60px;
+  cursor: default;
+  user-select: none;
+}
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 12rem;
+}
+.about-content{
+  width: 300px;
+  padding: 2rem;
+}
+.about-judul{
+  padding-top: 2rem;
+}
+footer{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.sosmed {
+  display: flex;
+  padding: 1rem 0rem 0rem ;
+  gap: 1rem;
+}
+.list ul li a {
+  text-decoration: none;
+  color: rgb(64, 63, 63);
+  padding-right: 0rem;
+  border: 10px;
+}
+.container {
+  padding: 7px;
+  margin: auto;
+  background-color: whitesmoke;
+  width: 100%;
+}
+.Judul-artikel {
+  text-align: center;
+  margin: -10rem 0rem 3rem 0rem;
+  color: rgb(64, 63, 63);
+}
+}
+
