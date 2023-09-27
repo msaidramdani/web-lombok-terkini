@@ -70,7 +70,7 @@ h1 {
   margin: 6rem 0rem 6rem 0rem;
   color: rgb(64, 63, 63);
 }
-main {
+main .container-card{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
